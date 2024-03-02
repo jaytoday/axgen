@@ -3,6 +3,7 @@
 # The TypeScript framework for AI development
 
 ![Github CI](https://github.com/axflow/axflow/workflows/Github%20CI/badge.svg) [![Slack](https://img.shields.io/badge/Join%20Our%20Community-Slack-blue)](https://join.slack.com/t/axilladevelopers/shared_invite/zt-212wj3ek0-NHzIFtVg1lxL1t0ViPbysA)
+<a href="https://app.greptile.com/repo/axflow"><img src="https://img.shields.io/badge/learn_with-greptile-%091B12?color=%091B12" alt="Learn this repo using Greptile"></a>
 
 Axflow is a collection of modules for building robust natural language powered applications. These modules can be adopted incrementally, thus providing a modular and scalable solution.
 Used together, they form an end-to-end framework for developing AI applications.
