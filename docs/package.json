@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [
+    "docs",
+    "ax",
+    "axilla",
+    "axflow",
+    "llm",
+    "ai",
+    "documentation"
+  ],
+  "author": "axflow",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.10"
+  }
+}

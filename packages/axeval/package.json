@@ -1,0 +1,56 @@
+{
+  "name": "axeval",
+  "version": "0.0.10",
+  "description": "A framework for evaluating LLM results",
+  "keywords": [
+    "framework",
+    "large language model",
+    "data",
+    "llm",
+    "generative ai",
+    "gpt",
+    "gpt-4",
+    "openai",
+    "models"
+  ],
+  "main": "./dist/index.js",
+  "homepage": "https://github.com/axflow/axflow/tree/main/packages/axeval",
+  "files": [
+    "dist",
+    "docs",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "tsc",
+    "lint": "prettier --check 'src/**/*.ts' 'example/**/*.ts'",
+    "format": "prettier --write 'src/**/*.ts' 'example/**/*.ts'",
+    "test": "jest --passWithNoTests --testMatch \"./**/test/**/*.test.ts\"",
+    "example:chat": "ts-node -r ./src/config.ts ./example/chat.ts",
+    "example:completion": "ts-node -r ./src/config.ts ./example/completion.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Axflow (https://axflow.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.5.8",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "encoding": "^0.1.13",
+    "openai": "^4.0.0-beta.7"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axflow/axflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axflow/axflow/issues"
+  }
+}
